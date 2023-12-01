@@ -32,7 +32,7 @@ const changeValues = ()=>{
             if(check.len === 1){
                 j += 1;
             }else{
-                j += check.len;
+                j += check.len - 1;
             }
         }
         arg[i] = finalString;
