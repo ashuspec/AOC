@@ -32,7 +32,11 @@ const changeValues = ()=>{
             if(check.len === 1){
                 j += 1;
             }else{
+<<<<<<< HEAD
                 j += check.len-1;
+=======
+                j += check.len - 1;
+>>>>>>> 3196b5eed7fd1e9b02c0b816f02428b25780aa41
             }
         }
         arg[i] = finalString;
